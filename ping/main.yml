@@ -1,0 +1,9 @@
+- hosts: all
+  tasks:
+  - name: test connection
+    ping:
+
+- hosts: group1
+  tasks:
+  - name: print hostname
+    debug: msg="I am {{ ansible_hostname }}"
