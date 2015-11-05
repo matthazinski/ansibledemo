@@ -1,0 +1,3 @@
+---
+- name: install linx binary
+  get_url: url=https://github.com/andreimarcu/linx-server/releases/download/v1.1.4/linx-server-v1.1.4_linux-amd64 dest=/opt/linx-server mode=0755
